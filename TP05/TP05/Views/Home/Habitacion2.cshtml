@@ -1,0 +1,20 @@
+<body>
+    @{
+        ViewData["Title"] = "4 Fotos 1 Palabra - Habitación 2";
+    }
+    <div class="text-center">
+        <u><h1 class="display-4">4 Fotos 1 Palabra</h1></u>
+        <h4>Encuentra la palabra relacionada con estas cuatro fotos</h4>
+        <img src = "~/Imagenes/AK 4-1.jpg" width="450" height ="300">
+        <img src = "~/Imagenes/Franco 4-1.jpg" width="450" height ="300">
+        <img src = "~/Imagenes/Misil 4-1.jpg" width="450" height ="300">
+        <img src = "~/Imagenes/Misilardo 4-1.jpg" width="450" height ="300">
+        <form method="post" action='@Url.Action("Habitacion","Home")'>
+          <h2>Respuesta</h2>
+          <input type="text" name="clave" required>
+          <input type="hidden" name="sala" value=2>
+          <input type="submit" value="Mandar la info">
+          <font color = "red">@ViewBag.Error</>
+        </form>
+    </div>
+</body>

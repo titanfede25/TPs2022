@@ -1,0 +1,9 @@
+<form method="post" action='@Url.Action("GuardarJugador","Home")'>
+    <input type="hidden" name="IdEquipo" value="@ViewBag.IdEquipo">
+    Nombre: <input type="text" name="Nombre" size="30" required><br><br>
+    Fecha de nacimiento: <input type="date" name="FechaNacimiento" size="20" required><br><br>
+    Equipo actual: <input type="text" name="EquipoActual" size="30" required><br><br>
+    Foto: <input type="text" name="Foto" size="30" required><br><br>
+    <input class="btn btn-primary" type="submit" value="Guardar Jugador">
+    <input class="btn btn-danger" type="reset" value="Borrar datos ingresados">
+</form>

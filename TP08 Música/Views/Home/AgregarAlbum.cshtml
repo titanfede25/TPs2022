@@ -1,0 +1,9 @@
+<h1><u>Completa el formulario para agregar un album</u></h1><br>
+<form method="post" action='@Url.Action("GuardarAlbum","Home")'>
+    <input type="hidden" name="FKArtista" value ="@ViewBag.IdArtista"><br><br>
+    Nombre: <input type="text" name="nombre" size="30" required><br><br>
+    Fecha de Lanzamiento: <input type="date" name="fechaLanzamiento" size="20" required><br><br>
+    Foto: <input type="text" name="foto" size="30" required><br><br>
+    <input class="btn btn-primary" type="submit" value="GuardarAlbum">
+    <input class="btn btn-danger" type="reset" value="Borrar datos ingresados">
+</form>

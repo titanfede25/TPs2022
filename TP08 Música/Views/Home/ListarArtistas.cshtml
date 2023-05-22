@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <body>
+        @{
+            ViewData["Title"] = "Lista de artistas";
+        }
+
+<h1>Lista de artistas</h1>
+@{
+    foreach(Artista Art in  ViewBag.Lista)
+    {
+        
+        <div class="card text-bg-dark ">
+  <img src="@Art.foto" class="card-img ">
+  <div class="card-img-overlay">
+    <h5 class="card-title" style="color:#FF0000">@Art.nombreArtistico</h5>
+    <p class="card-text"><a href='@Url.Action("VerInfoArtista","Home",new {IdArtista = @Art.IDArtista})' class="btn btn-primary info">Ver más</a></p>
+    <p class="card-text"><a type="button" class="btn btn-danger" href='@Url.Action("EliminarArtista", new {IDArtista = @Art.IDArtista})'>Eliminar</a></p>
+  </div>
+</div>
+    }
+  }
+
+
+
+
+<td><a href='@Url.Action("AgregarArtista","Home")' class="btn btn-secondary">Agregar Artista</a></td>
+  </body>
+</html>
+

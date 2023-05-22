@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <body>
+        @{
+            ViewData["Title"] = "Lista de Albumes";
+        }
+    
+    <table class="table bg-glass">
+  <h1>Artista</h1>
+  <thead class="thead-dark">
+      <td>Foto</td>
+      <td>Nombre artístico</td>
+      <td>Nombre real</td>
+      <td>Fecha de nacimiento</td>
+      <td>País</td>
+  </thead>
+  <tbody>
+        <tr class="tr-light">
+            <td class="mini"><img src=@ViewBag.InfoArt.foto width=200px></td>
+            <td>@ViewBag.InfoArt.nombreArtistico</td>
+            <td>@ViewBag.InfoArt.nombreCompleto</td>
+            <td>@ViewBag.InfoArt.fechaNacimiento.ToShortDateString()</td>
+            <td>@ViewBag.InfoArt.pais</td>
+        </tr> 
+  </tbody>
+</table>
+    <h1>Albumes del artista</h1>
+
+    <table class="table bg-glass">
+    <thead class="thead-dark">
+      <td>Album</td>
+      <td>Foto</td>
+      <td>Nombre</td>
+      <td>Fecha de Lanzamiento</td>
+      <td></td>
+      <td></td>
+    </thead>
+    <tbody>
+    @{
+      int i = 1;
+      foreach(Album Alb in  ViewBag.Albumes)
+      {
+          <tr class="tr-light">
+             <th scope="row">@i</th>
+             <td class="mini"><img src="@Alb.foto" width="200px"></td>
+              <td>@Alb.nombre</td>
+              <td>@Alb.fechaLanzamiento.ToShortDateString()</td>
+              <td><a href='@Url.Action("VerInfoAlbum","Home",new {album = @Alb.IdAlbum})' class="btn btn-primary info">Ver más</a></td>
+              <td><a type="button" class="btn btn-danger" href='@Url.Action("EliminarAlbum", new {IdAlbum = @Alb.IdAlbum, FKArtista = @Alb.FKArtista})'>Eliminar</a></td>
+          </tr>
+          i++;
+      }
+    }
+  </tbody>
+</table>
+<a href='@Url.Action("AgregarAlbum","Home", new { artista = @ViewBag.InfoArt.IDArtista})' class="btn btn-secondary">Agregar Album</a>
+</body>
+</html>

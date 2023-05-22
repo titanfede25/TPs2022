@@ -1,0 +1,23 @@
+<body>
+    @{
+        ViewData["Title"] = "Combinaciones de caracteres - Habitación 4";
+    }
+    <div class="text-center">
+        <u><h1 class="display-4">Combinaciones de caracteres</h1></u>
+        <h4>Descubrí los nombres de las 3 armas ubicados cada uno en un cuadrado, respondé en orden según las pistas</h4>
+         <button onclick="alert('Pista: Es un explosivo remoto que se puede adherir a distintas superficies y aparece en GTA 5')"> Pista arma 1 </button>
+         <button onclick="alert('Pista: Es una granada apodada limonka o granada limón creada en la Unión Soviética')"> Pista arma 2 </button>
+         <button onclick="alert('Pista: Es un fusil de asalto semiautomático creado en Estados Unidos siendo uno de los más reconocidos, incluso apareciendo en diversos títulos de videojuegos y películas')"> Pista arma 3 </button>
+         <br>
+         <br>
+          <img src = "~/Imagenes/Spots.png" width="500" height= "auto">
+          <br>
+        <form method="post" action='@Url.Action("Habitacion","Home")'>
+          <h2>Respuesta</h2>
+          <input type="text" name="clave" required>
+          <input type="hidden" name="sala" value=4>
+          <input type="submit" value="Mandar la info">
+          <font color = "red">@ViewBag.Error</>
+        </form>
+    </div>
+</body>

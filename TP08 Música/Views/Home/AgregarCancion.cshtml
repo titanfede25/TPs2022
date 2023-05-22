@@ -1,0 +1,10 @@
+<h1><u>Completa el formulario para agregar una canción</u></h1><br>
+<form method="post" action='@Url.Action("GuardarCancion","Home")'>
+    <input type="hidden" name="FKAlbum" value="@ViewBag.IdAlbum">
+    Nombre : <input type="text" name="nombre" size="30" required><br><br>
+    Link: <input type="text" name="Link" size="30" required><br><br>
+    Visualizaciones: <input type="text" name="visualizaciones" size="20" required><br><br>
+    Genero: <input type="text" name="genero" size="30" required><br><br>
+    <input class="btn btn-primary" type="submit" value="GuardarCancion">
+    <input class="btn btn-danger" type="reset" value="Borrar datos ingresados">
+</form>

@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+  </head>
+    <body>
+    @{
+    ViewData["Title"] = "Juego";
+    }
+    <br><br>
+    <div class="text-center text-white" ><br>
+      <h3>Usuario: <b>@ViewBag.Usuario</b></h3>
+      <h3>Puntaje: @ViewBag.Puntaje pts</h3><br>
+      <br><h2><b><u>@ViewBag.Pregunta.Enunciado</h2></u></b><br>
+      <img src = "@ViewBag.Pregunta.Foto" width= "40%" height="40%"><br><br>
+    <form method="post" action='@Url.Action("VerificarRespuesta","Home")' enctype="multipart/form-data">
+            @foreach(Respuesta r in ViewBag.Respuesta)  
+            {
+              <img src="~/Imagenes/Vacio.png" width = "0.5%"><input type="radio" value = "@r.IdRespuesta" name="IdRespuesta" required>@r.Contenido <img src="~/Imagenes/Vacio.png" width = "0.5%">
+            } 
+            <br><br><input class="btn btn-success" type="submit" value="Aceptar">
+            <input type="hidden" value = "@ViewBag.Pregunta.IdPregunta" name="IdPregunta">
+      </form>
+      </div>
+    </body>
+</html>

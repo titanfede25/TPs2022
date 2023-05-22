@@ -1,0 +1,22 @@
+  <body>
+    @{
+        ViewData["Title"] = "Adivinanza - Habitación 1";
+    }
+
+    <div class="text-center">
+        <u><h1 class="display-4">Adivinanza</h1></u>
+        <h4>Es mortífera, universal, eterna, rápida, taciturna y extraña ¿Qué es?</h4>
+        <button onclick="alert('Pista: Hay un mensaje secreto')"> Pista 1 </button>
+        <button onclick="alert('Pista: Mira bien las palabras y sus LETRAS')"> Pista 2 </button>
+        <br>
+        <br>
+        <img src = "~/Imagenes/Death.jpg" width="950" height= "auto">
+        <form method="post" action='@Url.Action("Habitacion","Home")'>
+          <h2>Respuesta</h2>
+          <input type="text" name="clave" required>
+          <input type="hidden" name="sala" value=1>
+          <input type="submit" value="Mandar la info">
+          <font color = "red">@ViewBag.Error</>
+        </form>
+    </div>
+  </body>

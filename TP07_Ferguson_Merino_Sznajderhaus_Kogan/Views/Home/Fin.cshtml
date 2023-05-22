@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  </head>
+    <body>
+    @{
+    ViewData["Title"] = "Fin";
+    }
+    <div class="text-center text-white" ><br>
+    <h1>¡Felicidades @ViewBag.Usuario!</h1>
+    <img src = "~/Imagenes/rickroll.gif" width="400" height= "auto">
+    <h2>Tu puntaje final ha sido: @ViewBag.Puntaje</h2>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ConfigurarJuego"><button class="btn btn-primary" type="button">Jugar de nuevo</button></a>
+    </div>
+    </div>
+        <audio controls autoplay style="width: 0%;"><source src="~/Imagenes/rickroll.mp3"></source> </audio> <h1 style="height: 0x; text-align: center;"></h1><h1 style="height: 2px; text-align: center;"></h1><h1 style="height: 0px; text-align: center;"><a href="~/Imagenes/rickroll.mp3"><span style="font-size: large;"></span></a></h1>
+    </body>
+</html>

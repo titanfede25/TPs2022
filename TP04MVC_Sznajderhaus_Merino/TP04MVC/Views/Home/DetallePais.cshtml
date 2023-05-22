@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2 class="display-4"><u>@ViewBag.Pais.Nombre</u></h2>
+    <img src= @ViewBag.Pais.ImgBandera width = 26%>
+    <h3><u>Destinos Turisticos</u></h3>
+    <h5>@ViewBag.Pais.AtractivosTuristicos</h5>
+    <h3><u>Población</u></h3>
+    <h5>@ViewBag.Pais.Poblacion</h5>
+    <h3><u>Fecha de independencia</u></h3>
+    <h5>@ViewBag.Pais.FechaIndependencia.ToShortDateString()</h5>
+</div>

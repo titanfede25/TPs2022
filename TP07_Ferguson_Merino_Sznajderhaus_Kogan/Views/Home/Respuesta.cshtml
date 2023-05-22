@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  </head>
+    <body>
+    @{
+    ViewData["Title"] = "Respuesta";
+    }
+    <div class="text-center text-white" >
+
+    @if(ViewBag.Correcta == true)
+    {
+        <img src = "~/Imagenes/correcto.png" style ="width: 54%; ">
+        <h1>Respuesta Correcta</h1>
+       
+    }
+    else
+    {
+        <img src = "~/Imagenes/incorrect.png" style ="width: 60%; ">
+        <h1>Respuesta Incorrecta</h1>
+       
+    }
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Jugar"><button class="btn btn-primary" type="button">Siguiente pregunta</button></a>
+    </div>
+    </div>
+    </body>
+</html>

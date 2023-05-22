@@ -1,0 +1,11 @@
+<h1><u>Completa el formulario para agregar un artista</u></h1><br>
+<form method="post" action='@Url.Action("GuardarArtista","Home")'>
+    <input type="hidden" name="IdArtista" value="@ViewBag.IdArtista">
+    Nombre Completo: <input type="text" name="nombreCompleto" size="30" required><br><br>
+    Nombre Artistico: <input type="text" name="nombreArtistico" size="30" required><br><br>
+    Fecha Nacimiento: <input type="date" name="fechaNacimiento" size="20" required><br><br>
+    País: <input type="text" name="pais" size="30" required><br><br>
+    Foto (URL): <input type="text" name="foto" size="30" required><br><br>
+    <input class="btn btn-primary" type="submit" value="GuardarArtista">
+    <input class="btn btn-danger" type="reset" value="Borrar datos ingresados">
+</form>

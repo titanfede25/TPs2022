@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Selección nacional de @ViewBag.Ej1.Nombre</h1>
+<table class="table bg-glass">
+<thead>
+    <td>Nombre</td>
+    <td>Escudo</td>
+    <td>Camiseta</td>
+    <td>Continente</td>
+    <td>Copas ganadas</td>
+    
+</thead>
+
+  <tr>
+    <td>@ViewBag.Ej1.Nombre</td>
+    <td><img src = "@ViewBag.Ej1.Escudo" width=200px></td>
+    <td><img src = "@ViewBag.Ej1.Camiseta"width=200px></td>
+    <td>@ViewBag.Ej1.Continente</td>
+    <td>@ViewBag.Ej1.CopasGanadas</td>
+  </tr>
+<br>
+
+<table class="table bg-glass">
+  <br><br><br>
+  <h3>jugadores</h3>
+  <thead class="thead-dark">
+    
+      <td>Jugador</td>
+      <td>Foto</td>
+      <td>Nombre</td>
+      <td>Información</td>
+      <td>Eliminar Jugador</td>
+  </thead>
+  <tbody>
+  @{
+    int i = 1;
+    foreach(Jugador jugador in ViewBag.Ej2)
+    {
+        <tr class="tr-light">
+            <th scope="row">@i</th>
+            <td class="mini"><img src="@jugador.Foto" width=200px></td>
+            <td>@jugador.Nombre</td>
+            <td><a href='@Url.Action("VerDetalleJugador","Home",new {IdJugador = @jugador.IdJugador})' class="btn btn-primary info">Ver más</a></td>
+            <td>
+            <a type="button" class="btn btn-danger" href='@Url.Action("EliminarJugador", new { IdJugador = @jugador.IdJugador, idEquipo = @jugador.IdEquipo })'>Eliminar</a>
+        </td>
+        </tr>
+        i++;
+    }
+  }
+  </tbody>
+</table>
+<td><a href='@Url.Action("AgregarJugador","Home",new {IdEquipo = @ViewBag.Ej1.IdEquipo})' class="btn btn-secondary">Agregar jugador</a></td>
+
+</body>

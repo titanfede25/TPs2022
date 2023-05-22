@@ -1,0 +1,22 @@
+<body>
+
+<h1>Acerca de @ViewBag.VerInfo.Nombre</h1>
+<table class="table bg-glass">
+<thead>
+    <td>Nombre</td>
+    <td>Fecha de Nacimiento</td>
+    <td>Foto</td>
+    <td>Equipo Actual</td>
+    
+</thead>
+
+    <tr>
+        <td>@ViewBag.VerInfo.Nombre</td>
+        <td>@ViewBag.VerInfo.FechaNacimiento.ToShortDateString()</td>
+        <td><img src = "@ViewBag.VerInfo.Foto" width=200px></td>
+        <td>@ViewBag.VerInfo.EquipoActual</td>
+        
+    </tr>
+<br>
+
+</body>

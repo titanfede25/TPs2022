@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <body>
+        @{
+            ViewData["Title"] = "Lista de Canciones";
+        }
+        
+    
+
+
+    <table class="table bg-glass">
+    <h1>Canciones</h1>
+    <thead class="thead-dark">
+      <td>Nombre</td>
+      <td>Visualizaciones</td>
+      <td>Género</td>
+      <td>Link</td>
+      <td></td>
+    </thead>
+    <tbody>
+    @{
+      foreach(Cancion Can in  ViewBag.Canciones)
+      {
+          <tr class="tr-light">
+              <td>@Can.nombre</td>
+              <td>@Can.visualizaciones</td>
+              <td>@Can.Genero</td>
+               <td><iframe width="50%" src="@Can.Link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+              <td><a type="button" class="btn btn-danger" href='@Url.Action("EliminarCancion", new {idCancion=Can.IDCancion, idAlbum=Can.FKAlbum})'>Eliminar</a></td>
+          </tr>
+      }
+    }
+  </tbody>
+</table>
+    <a href='@Url.Action("AgregarCancion","Home", new { album = @ViewBag.InfoAlb.IdAlbum})' class="btn btn-secondary">Agregar Canción</a>
+</body>
+</html>

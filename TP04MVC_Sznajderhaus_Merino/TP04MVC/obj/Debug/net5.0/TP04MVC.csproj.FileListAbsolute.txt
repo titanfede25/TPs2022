@@ -1,0 +1,118 @@
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\appsettings.Development.json
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\appsettings.json
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.exe
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.deps.json
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.runtimeconfig.json
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.runtimeconfig.dev.json
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.dll
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.pdb
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.Views.dll
+Z:\Usa el Z pibe\TP04MVC\bin\Debug\net5.0\TP04MVC.Views.pdb
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.AssemblyReference.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.AssemblyInfoInputs.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.AssemblyInfo.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.CoreCompileInputs.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.MvcApplicationPartsAssemblyInfo.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorAssemblyInfo.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorAssemblyInfo.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\scopedcss\bundle\TP04MVC.styles.css
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\staticwebassets\TP04MVC.StaticWebAssets.Manifest.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.TagHelpers.input.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.TagHelpers.output.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorCoreGenerate.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorTargetAssemblyInfo.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorTargetAssemblyInfo.cs
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.Views.pdb
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.dll
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\refint\TP04MVC.dll
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.pdb
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.genruntimeconfig.cache
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\ref\TP04MVC.dll
+Z:\Usa el Z pibe\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.CopyComplete
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.AssemblyReference.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.AssemblyInfoInputs.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.AssemblyInfo.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.CoreCompileInputs.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorAssemblyInfo.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorAssemblyInfo.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\scopedcss\bundle\TP04MVC.styles.css
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\staticwebassets\TP04MVC.StaticWebAssets.Manifest.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.TagHelpers.input.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.TagHelpers.output.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorCoreGenerate.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorTargetAssemblyInfo.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorTargetAssemblyInfo.cs
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.dll
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\refint\TP04MVC.dll
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.pdb
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\DetallePais.cshtml.g.cs
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\appsettings.json
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.exe
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.deps.json
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.runtimeconfig.json
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.runtimeconfig.dev.json
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.dll
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.pdb
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.Views.dll
+C:\Users\47206175\Desktop\TP04MVC\bin\Debug\net5.0\TP04MVC.Views.pdb
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.Views.pdb
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.genruntimeconfig.cache
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\ref\TP04MVC.dll
+C:\Users\47206175\Desktop\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.CopyComplete
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\appsettings.json
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.exe
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.deps.json
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.runtimeconfig.json
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.runtimeconfig.dev.json
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.dll
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.pdb
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.Views.dll
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\bin\Debug\net5.0\TP04MVC.Views.pdb
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.AssemblyReference.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.AssemblyInfoInputs.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.AssemblyInfo.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.CoreCompileInputs.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorAssemblyInfo.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorAssemblyInfo.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\scopedcss\bundle\TP04MVC.styles.css
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\staticwebassets\TP04MVC.StaticWebAssets.Manifest.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.TagHelpers.input.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.TagHelpers.output.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorCoreGenerate.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\DetallePais.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\Formulario.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorTargetAssemblyInfo.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.RazorTargetAssemblyInfo.cs
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.Views.pdb
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.dll
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\refint\TP04MVC.dll
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.pdb
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.genruntimeconfig.cache
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\ref\TP04MVC.dll
+C:\Users\devandroid\Desktop\TP04MVC_Sznajderhaus_Merino\TP04MVC\obj\Debug\net5.0\TP04MVC.csproj.CopyComplete

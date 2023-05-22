@@ -1,0 +1,17 @@
+<body>
+    @{
+        ViewData["Title"] = "Simon - Habitación 3";
+    }
+    <div class="text-center">
+        <u><h1 class="display-4">Simon</h1></u>
+        <h4>Escribi la combinación correcta para seguir</h4>
+        <img src = "~/Imagenes/BrowserPreview_tmp.gif" width="1000" height="auto">
+        <form method="post" action='@Url.Action("Habitacion","Home")'>
+          <h2>Respuesta</h2>
+          <input type="text" name="clave" required>
+          <input type="hidden" name="sala" value=3>
+          <input type="submit" value="Mandar la info">
+          <font color = "red">@ViewBag.Error</>
+        </form>
+    </div>
+</body>

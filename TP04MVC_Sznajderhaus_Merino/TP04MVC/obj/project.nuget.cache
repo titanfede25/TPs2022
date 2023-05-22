@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O8avztPlPRTz9aWWkCDlD5cF95mTi01rvutvGm65Fi3zV4O4zgeJL9qVLDF+y1neS5BWh2Hx6Sil7H21il7qJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\devandroid\\Desktop\\TP04MVC_Sznajderhaus_Merino\\TP04MVC\\TP04MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devandroid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.Nombre</h1>
+
+    <h2>La listita de @ViewBag.Nombre</h2>
+
+    @foreach(Pais p in ViewBag.Lista)
+    {
+        <a href='@Url.Action("DetallePais","Home", new { pais = p.Nombre })'><img src= @p.ImgBandera width = 19% height = 30%></a>
+    }
+    <form method="get" action='@Url.Action("Formulario","Home")'>
+        <h2>Agregar país</h2>
+        <p>Ingrese su nombre</p>
+        <input type="text" name="nombre" required>
+        <p>Ingrese la url de la bandera</p>
+        <input type="url" name="imgBandera" required>
+        <p>Ingrese su población</p>
+        <input type="number" name="poblacion" required>
+        <p>Ingrese su fecha de independencia</p>
+        <input type="date" name="fechaNacimiento" required>
+        <p>Ingrese sus atractivos turísticos</p>
+        <input type="text" name="atractivosTuristicos" required><br/>
+        <input type="submit" value="Mandar la info">
+    </form>
+</div>

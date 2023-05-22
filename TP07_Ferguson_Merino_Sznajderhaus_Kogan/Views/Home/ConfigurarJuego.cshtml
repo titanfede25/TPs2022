@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+  </head>
+    <body class="bodyback">
+      <div class="text-center"><br><br>
+        @{
+            ViewData["Title"] = "Configurar Juego";
+        }
+        <img src="~/Imagenes/Configuracion.png" style= "width: 40%;"><br><br>
+        <form method="get" action='@Url.Action("Comenzar","Home")' enctype="multipart/form-data">
+            <b><u>Username:</b></u><br><br><input type="text" name="username" size="30" required><br><br>
+            <b><u>Dificultad:</u></b><br><br>
+            <input type="radio" value ="-1" name="dificultad" required> Todas<br><br>
+            @foreach(Dificultad d in ViewBag.Dificultad) 
+            {
+              <input type="radio" value = "@d.IdDificultad" name="dificultad" required> @d.Nombre<br><br>
+            }
+            <b><u>Categoría:</u></b><br><br>
+            <input type="radio" value ="-1" name="categoria" required> Todas<br><br>
+            @foreach(Categoria c in ViewBag.Categoria)  
+            {
+              <input type="radio" value = "@c.IdCategoria" name="categoria" required> @c.Nombre<br><br>
+            } 
+            <input class="btn btn-success" type="submit" value="Aceptar">
+            <input class="btn btn-danger" type="reset" value="Borrar ingresos">
+        </form>
+        </div>
+    </body>
+</html>
